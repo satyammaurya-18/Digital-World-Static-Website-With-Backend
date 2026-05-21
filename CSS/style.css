@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all .2s ease-in;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 7rem;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --border: 2px solid #adadad;
+  --box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  --grey: #464646;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: var(--border);
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  color: var(--grey);
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+
+.btn span {
+  padding: .7rem 1rem;
+  border-radius: .5rem;
+  background: var(--grey);
+  color: #fff;
+  margin-left: .5rem;
+}
+
+.btn:hover {
+  color: rgb(248, 248, 248);
+  background-color: #000000;
+  border: #000000;
+  margin-left: 1rem;
+}
+
+.btn span:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border: #000000;
+}
+.btn2 {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: var(--border);
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  color: var(--white);
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+
+.btn2 span {
+  padding: .7rem 1rem;
+  border-radius: .5rem;
+  background: var(--grey);
+  color: #000000;
+  margin-left: .5rem;
+}
+
+.btn2:hover {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: #ffffff;
+  margin-left: 1rem;
+}
+
+.btn2 span:hover {
+  color: #ffffff;
+  background-color: #000000;
+  border: #ffffff;
+}
+
+
+.header {
+  padding: 2rem 9%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 .5rem 1.5rem #0000001a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+}
+
+.header .logo {
+  font-size: 2.5rem;
+  color: var(--black);
+
+}
+
+.header .navbar a {
+  font-size: 1.7rem;
+  color: gray;
+  margin-left: 2rem;
+}
+
+.header .navbar a:hover {
+  color: black;
+
+}
+
+/* MENU BUTTON */
+
+#menu-btn {
+  font-size: 2.5rem;
+  border-radius: .5rem;
+  background: #eee;
+  color: black;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  display: none;
+
+}
+
+/* HOME PAGE */
+.home {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding-top: 10rem;
+  padding: 10rem;
+
+}
+
+.home .image {
+  flex: 1 1 45rem;
+}
+
+.home .image img {
+  width: 85%;
+}
+
+.home .content {
+  flex: 1 1 45rem;
+}
+
+/* to fix the shadow */
+:root {
+  --black: #000000;
+  --text-shadow: 2px 2px 4px rgba(88, 88, 88, 0.5);
+}
+
+.home .content h3 {
+  font-size: 4.5rem;
+  color: var(--black);
+  line-height: 1.8;
+  text-shadow: var(--text-shadow);
+}
+
+.home .content p {
+  font-size: 1.7rem;
+  color: var(--light-color);
+  line-height: 1.8;
+  padding: 1rem 0;
+}
+
+.home .content h3,
+.home .content p {
+  cursor: default;
+}
+
+/* SERVICES PAGE */
+
+/* SERVICES PAGE */
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 15rem;
+}
+
+.services .box-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Set 3 boxes per row */
+  gap: 2rem;
+}
+
+.services .box-container .box {
+  background: #ffffff;
+  border-radius: .5rem;
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  padding: 2.5rem;
+}
+
+.services .box-container .box i {
+  font-size: 2rem;
+}
+
+.services .box-container .box h3 {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.services .box-container .box p {
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+
+/* LEARN MORE BTN */
+.learnmore {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 10rem;
+  gap: 1.5rem;
+  padding: 10rem;
+}
+
+.learnmore h3 {
+  color: #000000;
+  font-size: 4.5rem;
+}
+
+.learnmore p {
+  color: rgb(97, 97, 97);
+  font-size: 1.7rem;
+  line-height: 1.8;
+  padding: 1rem 0;
+}
+
+/* ABOUT PAGE */
+.about .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding-top: 10rem;
+  padding: 10rem;
+}
+
+.about .row .image {
+  flex: 1 1 45rem;
+}
+
+.about .row .image img {
+  width: 85%;
+}
+
+.about .row .content {
+  flex: 1 1 45rem;
+}
+
+.about .row .content h3 {
+  color: var(--black);
+  text-shadow: var(--text-shadow);
+  font-size: 5rem;
+  line-height: 1.8;
+}
+
+.about .row .content p {
+  color: var(--black);
+  text-shadow: var(--text-shadow);
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
+/* MEMBERS PAGE */
+.members {
+  padding-top: 10rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.members .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  gap: 2rem;
+}
+
+.members .box-container .box {
+  text-align: center;
+  background: #fff;
+  border-radius: .5rem;
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  padding: 2rem;
+}
+
+.members .box-container .box img {
+  height: 20rem;
+  border: var(--border);
+  border-radius: .5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem
+}
+
+.members .box-container .box h3 {
+  color: var(--black);
+  font-size: 2.5rem;
+}
+
+.members .box-container .box span {
+  color: var(--black);
+  font-size: 1.5rem;
+}
+
+.members .box-container .box .share {
+  padding: 2rem;
+}
+
+.members .box-container .box .share a {
+  height: 5rem;
+  width: 5rem;
+  line-height: 4.5rem;
+  font-size: 2rem;
+  color: var(--black);
+  border-radius: .5rem;
+  border: var(--border);
+  margin: .3rem;
+}
+
+.members .box-container .box .share a:hover {
+  background: var(--black);
+  color: #fff;
+} 
+.members .box-container .box .share2 {
+  padding: 2rem;
+}
+
+.members .box-container .box .share2 a {
+  height: 5rem;
+  width: 5rem;
+  line-height: 4.5rem;
+  font-size: 2rem;
+  color: var(white);
+  border-radius: .5rem;
+  border: var(--border);
+  margin: .3rem;
+}
+
+.members .box-container .box .share2 a:hover {
+  background: var(white);
+  color: #000000;
+}
+/* BOOK PAGE */
+.book {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 10rem;
+  gap: 1.5rem;
+  padding: 10rem;
+}
+
+.book .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.book .row .image {
+  flex: 1 1 45rem;
+}
+
+.book .row .image img {
+  width: 85%;
+}
+
+.book .row {
+  width: 100%;
+}
+
+.book .row form {
+  flex: 1 1 30rem; /* Adjusted form width */
+  background: #000000;
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  color: white;
+  width: 30rem; /* Explicitly setting a shorter width for the form */
+}
+
+.book .row form h3 {
+  color: white;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.book .row form .box {
+  width: 100%;
+  margin: .7rem 0;
+  border-radius: 1rem;
+  border: var(--border);
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: none;
+  padding: 1rem;
+}
+
+.book .row form .btn {
+  padding: 1rem 4rem;
+  border-radius: 1rem;
+}
+
+
+
+/* REVIEW PAGE */
+
+.review {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding-top: 10rem;
+  padding: 10rem;
+}
+
+.review .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  gap: 2rem;
+}
+
+.review .box-container .box {
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  border-radius: .5rem;
+  padding: 2.5rem;
+  background: #fff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.review .box-container .box img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: .5rem solid #ffffff;
+}
+
+.review .box-container .box h3 {
+  color: #ffffff;
+  font-size: 2.2rem;
+  padding: .5rem 0;
+}
+
+.review .box-container .box .stars i {
+  color: #ffd700;
+  font-size: 1.2rem;
+
+}
+
+.review .box-container .box .text {
+  color: rgb(116, 116, 116);
+  line-height: 1.8;
+  font-size: 1.6rem;
+  padding-top: 7rem;
+}
+
+.review .box-container .box::before {
+  content: '';
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background: var(--black);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  height: 25rem;
+  width: 100%;
+  z-index: -1;
+}
+
+/* BLOGS PAGE */
+
+.blogs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding-top: 10rem;
+  padding: 10rem;
+}
+
+.blogs .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  gap: 2rem;
+}
+
+.blogs .box-container .box {
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  border-radius: .5rem;
+  padding: 2rem;
+}
+
+.blogs .box-container .box .image {
+  height: 20rem;
+  overflow: hidden;
+  border-radius: .5rem;
+}
+
+.blogs .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.blogs .box-container .box:hover .image img {
+  transform: scale(1.2);
+}
+
+.blogs .box-container .box .content {
+  padding-top: 1rem;
+}
+
+.blogs .box-container .box .content .icon {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blogs .box-container .box .content .icon a {
+  font-size: 1.4rem;
+  color: rgb(160, 156, 156);
+}
+
+/* need to be fix hover doesnt work */
+.blogs .box-container .box .content .icon a:hover {
+  color: #ffffff;
+}
+
+.blogs .box-container .box .content .icon a i {
+  padding-right: .5rem;
+  color: #000000;
+}
+
+.blogs .box-container .box .content h3 {
+  color: #000000;
+  font-size: 2rem;
+}
+
+.blogs .box-container .box .content p {
+  color: grey;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  padding: 1rem 0;
+}
+
+/* CONTACT PAGE */
+
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: #353535 0.1rem solid;
+  border-color: #a3a3a3;
+  background: white;
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+
+/* EVENTS PAGE */
