@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/Login.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Digital World</a>
+        <nav class="navbar">
+            <a href="./index.html">Home</a>
+            <a href="./services.html">Services</a>
+            <a href="./about.html">About</a>
+            <a href="./members.html">Members</a>
+            <a href="./book.html">Join Us</a>
+            <a href="./review.html">Review</a>
+            <a href="./blogs.html">Blogs</a>
+            <a href="./events.html">Events</a>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+    <div style="background-image: url(assets/white.jpg);">
+        <div class="heading">
+            <h2 style="color: black;">Login</h2>
+        </div>
+        <div class="main-contaier">
+            <div id="login" class="login-container"
+                style="background-image: url(assets/black2.jpg); background-repeat: no-repeat; background-size: cover;">
+                <br><br><br><br><br><br>
+                <form id="loginForm" style="color: aliceblue;" action="PHP/login.php" method="post">
+                    <div class="input-container">
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required
+                            style="color: aliceblue;">
+                    </div>
+                    <div class="input-container">
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required
+                            style="color: aliceblue;">
+                    </div>
+
+                    <div class="forget">
+                        <p style="font-size:medium;">Forgot Password?</p>
+                    </div>
+                    <br>
+                    <button value="Submit" class="btn2" name="Login"
+                        onclick="return validateLoginForm(event)">Login</button>
+                </form>
+
+                <div class="side-link">
+                    <a href="PHP/data.php" class="btn2" target="_blank">User Data</a>
+                </div>
+
+                <div class="register-div">
+                    <p style="font-size:medium; color: aliceblue;">Don't have an account?
+                        <a href="Registeration.html" style="color: aliceblue;">Register</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-footer">
+            <div class="footer-top">
+                <div class="footer-top-left">
+                    <h3>Relax. We've Got You</h3><br>
+                    <a href="./contact.html" class="btn">Get in Touch <span class="fas fa-chevron-right"></span></a>
+                </div>
+                <div class="footer-top-right">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./services.html">Services</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./members.html">Members</a></li>
+                        <li><a href="./book.html">Join</a></li>
+                        <li><a href="./review.html">Review</a></li>
+                        <li><a href="./blogs.html">Blogs</a></li>
+                        <li><a href="./events.html">Events</a></li>
+                        <li><a href="Registeration.html">Register</a></li>
+                    </ul>
+                    <div class="footer-social-media">
+                        <ul>
+                            <li><a href="#">X→</a></li>
+                            <li><a href="#">Instagram→</a></li>
+                            <li><a href="#">LinkedIn→</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-left">
+                    <p>San Diego—California</p>
+                    <p>Paris—France</p>
+                </div>
+                <div class="brand">
+                    <h1><span>D</span><span>i</span><span>g</span><span>i</span><span>t</span><span>a</span><span>l</span>
+                        <span>w</span><span>o</span><span>r</span><span>l</span><span>d</span>
+                    </h1>
+                </div>
+                <div class="footer-bottom-right">
+                    <p>biz@rejouice.com</p>
+                    <p>©2023 All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+
+        </footer>
+</body>
+
+</html>
