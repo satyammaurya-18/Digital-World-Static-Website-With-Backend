@@ -27,7 +27,7 @@
 <tr>
 <td>
 
-<img src="https://img.icons8.com/color/96/responsive.png" width="55"/>
+<img src="https://img.icons8.com/color/96/media-queries.png" width="55"/>
 
 ### Responsive Design
 Works smoothly across desktop, tablet, and mobile devices.
