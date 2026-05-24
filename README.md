@@ -23,9 +23,33 @@
 
 # <img src="https://img.icons8.com/fluency/48/picture.png" width="30"/> Preview
 
-<p align="center">
-  <img src="https://img.icons8.com/fluency/480/web-design.png" width="700" alt="Website Preview"/>
-</p>
+<header class="header">
+        <a href="index.html" class="logo">Digital World</a>
+        <nav class="navbar">
+            <a href="./services.html">Services</a>
+            <a href="./about.html">About</a>
+            <a href="./members.html">Members</a>
+            <a href="./book.html">Join Us</a>
+            <a href="./review.html">Review</a>
+            <a href="./blogs.html">Blogs</a>
+            <a href="./events.html">Events</a>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+</header>
+
+<section class="home" id="home" style="background-image: url(assets/white.jpg);">
+        <div class="image">
+            <img src="./assets/startup.png" alt="Startup Image">
+        </div>
+        <div class="content">
+            <h3>Welcome to the Future of Technology</h3>
+            <p>At Digital World, we empower innovators and creators to transform their visions into reality. Join us as
+                we explore new horizons in technology and creativity!</p>
+            <a href="./contact.html" class="btn">Get in Touch <span class="fas fa-chevron-right"></span></a>
+        </div>
+</section>
+
+
 
 ---
 
@@ -75,15 +99,37 @@ Optimized static deployment for quick loading.
 
 ---
 
-# <img src="https://img.icons8.com/fluency/48/maintenance.png" width="30"/> Tech Stack
+# <img src="https://img.icons8.com/fluency/96/internet.png" width="35"/> Tech Stack & Deployment
 
 <p align="left">
 
-<img src="https://img.icons8.com/color/96/html-5--v1.png" width="60"/>
-<img src="https://img.icons8.com/color/96/css3.png" width="60"/>
-<img src="https://img.icons8.com/color/96/javascript--v1.png" width="60"/>
-<img src="https://img.icons8.com/color/96/git.png" width="60"/>
-<img src="https://img.icons8.com/color/96/github.png" width="60"/>
+<img src="https://img.icons8.com/color/96/html-5--v1.png" width="60" alt="HTML5"/>
+<br>
+<b>HTML5</b>
+
+<br><br>
+
+<img src="https://img.icons8.com/color/96/css3.png" width="60" alt="CSS3"/>
+<br>
+<b>CSS3</b>
+
+<br><br>
+
+<img src="https://img.icons8.com/color/96/javascript--v1.png" width="60" alt="JavaScript"/>
+<br>
+<b>JavaScript</b>
+
+<br><br>
+
+<img src="https://img.icons8.com/color/96/github.png" width="60" alt="GitHub"/>
+<br>
+<b>GitHub</b>
+
+<br><br>
+
+<img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-logo-color-tal-revivo.png" width="60" alt="Netlify"/>
+<br>
+<b>Netlify Deployment</b>
 
 </p>
 
