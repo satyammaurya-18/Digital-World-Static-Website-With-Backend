@@ -67,37 +67,13 @@ Optimized static deployment for quick loading.
 
 ---
 
-# <img src="https://img.icons8.com/fluency/96/internet.png" width="35"/> Tech Stack & Deployment
-
 <p align="left">
 
-<img src="https://img.icons8.com/color/96/html-5--v1.png" width="60" alt="HTML5"/>
-<br>
-<b>HTML5</b>
-
-<br><br>
-
-<img src="https://img.icons8.com/color/96/css3.png" width="60" alt="CSS3"/>
-<br>
-<b>CSS3</b>
-
-<br><br>
-
-<img src="https://img.icons8.com/color/96/javascript--v1.png" width="60" alt="JavaScript"/>
-<br>
-<b>JavaScript</b>
-
-<br><br>
-
-<img src="https://img.icons8.com/color/96/github.png" width="60" alt="GitHub"/>
-<br>
-<b>GitHub</b>
-
-<br><br>
-
-<img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-logo-color-tal-revivo.png" width="60" alt="Netlify"/>
-<br>
-<b>Netlify Deployment</b>
+<img src="https://img.icons8.com/color/96/html-5--v1.png" width="60" title="HTML5" alt="HTML5"/>
+<img src="https://img.icons8.com/color/96/css3.png" width="60" title="CSS3" alt="CSS3"/>
+<img src="https://img.icons8.com/color/96/javascript--v1.png" width="60" title="JavaScript" alt="JavaScript"/>
+<img src="https://img.icons8.com/color/96/github.png" width="60" title="GitHub" alt="GitHub"/>
+<img src="https://seeklogo.com/images/N/netlify-logo-758722CDF4-seeklogo.com.png" width="60" title="Netlify Deployment" alt="Netlify"/>
 
 </p>
 
