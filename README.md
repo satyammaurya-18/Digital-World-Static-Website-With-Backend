@@ -1,62 +1,103 @@
-# Digital World
+# <img src="https://img.icons8.com/fluency/96/internet.png" width="35"/> Digital World
 
-A modern digital agency website focused on delivering web development, software solutions, UI/UX design, branding, and digital marketing services.
+<p align="center">
+  <img src="https://img.icons8.com/fluency/240/internet.png" width="120" alt="Digital World Logo"/>
+</p>
 
-Live Demo: https://digital-world-static.netlify.app/
-
----
-
-## 🚀 Overview
-
-Digital World is a professional agency-style website designed to showcase digital services, portfolio offerings, and business solutions for startups, brands, and enterprises.
-
-The platform highlights:
-
-- Web Development
-- Software Solutions
-- Graphic Design & UI/UX
-- SEO & Digital Marketing
-- Branding Services
-- Client-focused Digital Solutions
-
-The website features a modern responsive design with clean layouts, service sections, business highlights, and contact-focused user flows.
+<p align="center">
+  A modern and responsive portfolio / web showcase built with clean UI, smooth sections, and interactive design.
+</p>
 
 ---
 
-## ✨ Features
+## <img src="https://img.icons8.com/fluency/48/link.png" width="25"/> Live Demo
 
-- Fully responsive modern UI
-- Clean landing page design
-- Service showcase sections
-- Business-focused branding
-- Portfolio/project presentation
-- Contact & CTA sections
-- Smooth user experience
-- Mobile-friendly layout
-- Fast static deployment
+<p>
+  <a href="https://digital-world-static.netlify.app">
+    <img src="https://img.icons8.com/color/48/domain.png" width="22"/>
+    View Website
+  </a>
+</p>
 
 ---
 
-## 🛠️ Tech Stack
+# <img src="https://img.icons8.com/fluency/48/picture.png" width="30"/> Preview
 
-Depending on your implementation, this project appears to use:
-
-- HTML5
-- CSS3
-- JavaScript
-- Responsive Design
-- Netlify Deployment
+<p align="center">
+  <img src="https://img.icons8.com/fluency/480/web-design.png" width="700" alt="Website Preview"/>
+</p>
 
 ---
 
-## 📂 Project Structure
+# <img src="https://img.icons8.com/fluency/48/star.png" width="30"/> Features
+
+<table>
+<tr>
+<td>
+
+<img src="https://img.icons8.com/color/96/responsive.png" width="55"/>
+
+### Responsive Design
+Works smoothly across desktop, tablet, and mobile devices.
+
+</td>
+
+<td>
+
+<img src="https://img.icons8.com/color/96/source-code.png" width="55"/>
+
+### Clean Code
+Structured and maintainable frontend codebase.
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+<img src="https://img.icons8.com/color/96/design.png" width="55"/>
+
+### Modern UI
+Beautiful layout with stylish sections and visuals.
+
+</td>
+
+<td>
+
+<img src="https://img.icons8.com/color/96/speed.png" width="55"/>
+
+### Fast Performance
+Optimized static deployment for quick loading.
+
+</td>
+</tr>
+</table>
+
+---
+
+# <img src="https://img.icons8.com/fluency/48/maintenance.png" width="30"/> Tech Stack
+
+<p align="left">
+
+<img src="https://img.icons8.com/color/96/html-5--v1.png" width="60"/>
+<img src="https://img.icons8.com/color/96/css3.png" width="60"/>
+<img src="https://img.icons8.com/color/96/javascript--v1.png" width="60"/>
+<img src="https://img.icons8.com/color/96/git.png" width="60"/>
+<img src="https://img.icons8.com/color/96/github.png" width="60"/>
+
+</p>
+
+---
+
+# <img src="https://img.icons8.com/fluency/48/folder-invoices.png" width="30"/> Project Structure
 
 ```bash
-digital-world/
+Digital-World/
 │
-├── assets/
-├── images/
-├── css/
-├── js/
 ├── index.html
+├── style.css
+├── script.js
+├── assets/
+│   ├── images/
+│   └── icons/
 └── README.md
