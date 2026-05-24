@@ -86,10 +86,33 @@ Optimized static deployment for quick loading.
 ```bash
 Digital-World/
 │
-├── index.html
-├── style.css
-├── script.js
+├── .vscode/
+│
 ├── assets/
-│   ├── images/
-│   └── icons/
+│   └── images
+│
+├── CSS/
+│   └── CSS Files
+│
+├── JS/
+│   └── JS Files
+│
+├── PHP/
+│   └── PHP Files
+│
+├── After_login/
+│
+├── about.html
+├── blogs.html
+├── book.html
+├── contact.html
+├── events.html
+├── index.html
+├── learnmore.html
+├── Login.html
+├── members.html
+├── Registeration.html
+├── review.html
+├── services.html
+│
 └── README.md
