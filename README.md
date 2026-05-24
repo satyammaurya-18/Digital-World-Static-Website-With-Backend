@@ -67,6 +67,8 @@ Optimized static deployment for quick loading.
 
 ---
 
+# <img src="https://img.icons8.com/fluency/96/internet.png" width="35"/> Tech Stack & Deployment
+
 <p align="left">
 
 <img src="https://img.icons8.com/color/96/html-5--v1.png" width="60" title="HTML5" alt="HTML5"/>
