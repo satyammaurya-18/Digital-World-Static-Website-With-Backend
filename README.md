@@ -21,54 +21,6 @@
 
 ---
 
-# <img src="https://img.icons8.com/fluency/48/picture.png" width="30"/> Preview
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital World</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mediaqueries.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-</head>
-
-<body>
-
-<header class="header">
-        <a href="index.html" class="logo">Digital World</a>
-        <nav class="navbar">
-            <a href="./services.html">Services</a>
-            <a href="./about.html">About</a>
-            <a href="./members.html">Members</a>
-            <a href="./book.html">Join Us</a>
-            <a href="./review.html">Review</a>
-            <a href="./blogs.html">Blogs</a>
-            <a href="./events.html">Events</a>
-        </nav>
-        <div id="menu-btn" class="fas fa-bars"></div>
-    </header>
-
-<section class="home" id="home" style="background-image: url(assets/white.jpg);">
-        <div class="image">
-            <img src="./assets/startup.png" alt="Startup Image">
-        </div>
-        <div class="content">
-            <h3>Welcome to the Future of Technology</h3>
-            <p>At Digital World, we empower innovators and creators to transform their visions into reality. Join us as
-                we explore new horizons in technology and creativity!</p>
-            <a href="./contact.html" class="btn">Get in Touch <span class="fas fa-chevron-right"></span></a>
-        </div>
-    </section>
-
-
-
----
-
 # <img src="https://img.icons8.com/fluency/48/star.png" width="30"/> Features
 
 <table>
